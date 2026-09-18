@@ -1,0 +1,24 @@
+{
+  "name": "ms2-sub-maria-eduarda-bertolli-da-silva",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maduhbertolli/ms2-sub-Maria-Eduarda-Bertolli-Da-Silva.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maduhbertolli/ms2-sub-Maria-Eduarda-Bertolli-Da-Silva/issues"
+  },
+  "homepage": "https://github.com/maduhbertolli/ms2-sub-Maria-Eduarda-Bertolli-Da-Silva#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
