@@ -1,7 +1,7 @@
 {
   "name": "ms2-sub-maria-eduarda-bertolli-da-silva",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este projeto foi desenvolvido como parte de uma atividade acadêmica de desenvolvimento web.\r O objetivo é aplicar os conhecimentos de **HTML, CSS, JavaScript e Bootstrap**, utilizando uma estrutura organizada de projeto e o Bootstrap instalado através do **npm**.\r O projeto utiliza o **Bootstrap 5.3.8** como principal biblioteca para auxiliar na criação da interface e na responsividade da aplicação.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/maduhbertolli/ms2-sub-Maria-Eduarda-Bertolli-Da-Silva/issues"
   },
-  "homepage": "https://github.com/maduhbertolli/ms2-sub-Maria-Eduarda-Bertolli-Da-Silva#readme"
+  "homepage": "https://github.com/maduhbertolli/ms2-sub-Maria-Eduarda-Bertolli-Da-Silva#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
 }
