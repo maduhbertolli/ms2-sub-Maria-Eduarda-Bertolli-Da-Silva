@@ -1,51 +1,50 @@
-# MS2 - Projeto Bootstrap
+# 🩸 The Weeknd — Portifólio
 
-## 📌 Sobre o projeto
-Este projeto foi desenvolvido como parte de uma atividade acadêmica de desenvolvimento web.
-O objetivo é aplicar os conhecimentos de **HTML, CSS, JavaScript e Bootstrap**, utilizando uma estrutura organizada de projeto e o Bootstrap instalado através do **npm**.
-O projeto utiliza o **Bootstrap 5.3.8** como principal biblioteca para auxiliar na criação da interface e na responsividade da aplicação.
+Portifólio temático inspirado na estética de **The Weeknd**, desenvolvido com **HTML, CSS e Bootstrap**.
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Sobre o projeto
+
+O site apresenta uma interface com estética gótica, utilizando tons escuros e vermelho, com seções sobre o artista, álbuns, turnê e contato.
+
+## 🛠️ Tecnologias
 
 * HTML5
 * CSS3
+* Bootstrap 5
 * JavaScript
-* Bootstrap 5.3.8
-* Node.js / npm
+* Google Fonts
+* Bootstrap via **npm**
 
-## 📂 Estrutura do projeto
+## 📂 Estrutura
 
-ms2-sub-Maria-Eduarda-Bertolli-Da-Silva/
-│
-|--- src/
-│   └-- Arquivos do projeto
-│
-├-- index.html
-|-- package.json
-├-- package-lock.json
-|--.gitignore
+```text
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── src/
+    ├── css/
+    │   └── style.css
+    └── js/
+        └── script.js
+```
 
-## 🎯 Objetivos
+## ▶️ Como executar
 
-O projeto tem como principais objetivos:
+```bash
+npm install
+```
 
-* Praticar desenvolvimento de interfaces web;
-* Utilizar HTML para estruturar páginas;
-* Aplicar CSS para personalização;
-* Utilizar JavaScript quando necessário;
-* Aprender a utilizar o Bootstrap;
-* Trabalhar com dependências através do npm;
-* Desenvolver interfaces responsivas;
-* Organizar um projeto utilizando Git e GitHub.
+Depois, abra o `index.html` no navegador.
 
-## 📚 Aprendizados
+## ✨ Funcionalidades
 
-Durante o desenvolvimento do projeto, foram trabalhados conceitos relacionados à criação de páginas web, organização de arquivos, instalação de bibliotecas com npm e utilização de componentes e classes do Bootstrap.
+* Navbar responsiva
+* Layout responsivo com Bootstrap
+* Seção biográfica
+* Discografia
+* Datas de turnê
+* Formulário de contato
+* Menu mobile
+* Estética gótica personalizada
 
-A atividade também contribui para a prática de versionamento de código utilizando GitHub.
-
-## 👩‍💻 Autora
-
-**Maria Eduarda Bertolli da Silva**
-
-Projeto acadêmico desenvolvido para fins de estudo.
