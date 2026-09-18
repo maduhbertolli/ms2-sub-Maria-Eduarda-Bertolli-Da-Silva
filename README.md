@@ -17,13 +17,13 @@ O projeto utiliza o **Bootstrap 5.3.8** como principal biblioteca para auxiliar 
 
 ms2-sub-Maria-Eduarda-Bertolli-Da-Silva/
 │
-├── src/
-│   └── Arquivos do projeto
+|--- src/
+│   └-- Arquivos do projeto
 │
-├── index.html
-├── package.json
-├── package-lock.json
-
+├-- index.html
+|-- package.json
+├-- package-lock.json
+|--.gitignore
 
 ## 🎯 Objetivos
 
