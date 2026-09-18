@@ -1,124 +1,232 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>THE WEEKND — Portifólio Oficial</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Bootstrap via CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>THE WEEKND — Portfólio Oficial</title>
+
+  <!-- Bootstrap instalado pelo npm -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
 
+  <!-- CSS próprio -->
   <link rel="stylesheet" href="src/css/style.css">
 </head>
+
 <body>
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top gothic-navbar">
     <div class="container">
+
       <a class="navbar-brand blackletter" href="#hero">XO</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMenu"
+        aria-controls="navMenu"
+        aria-expanded="false"
+        aria-label="Abrir menu">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse justify-content-end" id="navMenu">
         <ul class="navbar-nav gap-lg-4 text-uppercase">
-          <li class="nav-item"><a class="nav-link" href="#hero">Início</a></li>
-          <li class="nav-item"><a class="nav-link" href="#bio">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="#albuns">Álbuns</a></li>
-          <li class="nav-item"><a class="nav-link" href="#turne">Turnê</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hero">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bio">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#albuns">Álbuns</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#turne">Turnê</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
         </ul>
       </div>
+
     </div>
   </nav>
 
   <!-- HERO -->
   <header id="hero" class="hero-section d-flex align-items-center text-center">
     <div class="container">
+
       <p class="eyebrow">Depois da Meia-Noite</p>
-      <h1 class="blackletter display-1">The Weeknd</h1>
-      <p class="lead subtitle">Um tributo sombrio ao homem por trás da máscara vermelha</p>
-      <a href="#albuns" class="btn btn-gothic mt-4">Explorar Discografia</a>
+
+      <h1 class="blackletter display-1">
+        The Weeknd
+      </h1>
+
+      <p class="lead subtitle">
+        Um tributo sombrio ao homem por trás da máscara vermelha
+      </p>
+
+      <a href="#albuns" class="btn btn-gothic mt-4">
+        Explorar Discografia
+      </a>
+
     </div>
-    <div class="hero-divider"><span class="diamond"></span></div>
+
+    <div class="hero-divider">
+      <span class="diamond"></span>
+    </div>
   </header>
 
   <!-- BIO -->
   <section id="bio" class="section-dark py-5">
     <div class="container py-4">
+
       <div class="row align-items-center g-5">
+
         <div class="col-lg-5 text-center">
           <div class="portrait-frame mx-auto">
-            <img src="https://preview.redd.it/rate-my-the-weeknd-wallpaper-3-v0-22op3grbbxke1.jpeg?width=640&crop=smart&auto=webp&s=1b0cc6b19e50f8ce1027fe0fc82ddd68a1194346"
-                 alt="Retrato estilizado" class="img-fluid portrait-img">
+
+            <img
+              src="https://preview.redd.it/rate-my-the-weeknd-wallpaper-3-v0-22op3grbbxke1.jpeg?width=640&crop=smart&auto=webp&s=1b0cc6b19e50f8ce1027fe0fc82ddd68a1194346"
+              alt="Retrato estilizado de The Weeknd"
+              class="img-fluid portrait-img">
+
           </div>
         </div>
+
         <div class="col-lg-7">
-          <h2 class="section-title">A Lenda</h2>
+
+          <h2 class="section-title">
+            A Lenda
+          </h2>
+
           <p class="body-serif">
-            Abel Makkonen Tesfaye, conhecido pelo mundo como <strong>The Weeknd</strong>, transformou o R&amp;B
-            contemporâneo em uma experiência quase litúrgica — vozes etéreas, sintetizadores sombrios e uma
-            estética visual que flerta com o horror e o glamour ao mesmo tempo.
+            Abel Makkonen Tesfaye, conhecido pelo mundo como
+            <strong>The Weeknd</strong>, transformou o R&amp;B contemporâneo
+            em uma experiência quase litúrgica — vozes etéreas,
+            sintetizadores sombrios e uma estética visual que flerta
+            com o horror e o glamour ao mesmo tempo.
           </p>
+
           <p class="body-serif">
-            Da trilogia inicial de mixtapes até os álbuns que dominaram as paradas globais, sua obra é marcada
-            por uma dualidade constante: luz de neon contra escuridão absoluta, êxtase contra desespero.
+            Da trilogia inicial de mixtapes até os álbuns que dominaram
+            as paradas globais, sua obra é marcada por uma dualidade
+            constante: luz de neon contra escuridão absoluta,
+            êxtase contra desespero.
           </p>
+
           <div class="row text-center mt-4 g-3">
-            <div class="col-4"><div class="stat-box"><span class="stat-number">4</span><span class="stat-label">Grammys</span></div></div>
-            <div class="col-4"><div class="stat-box"><span class="stat-number">7</span><span class="stat-label">Álbuns de Estúdio</span></div></div>
-            <div class="col-4"><div class="stat-box"><span class="stat-number">100M+</span><span class="stat-label">Discos Vendidos</span></div></div>
+
+            <div class="col-4">
+              <div class="stat-box">
+                <span class="stat-number">4</span>
+                <span class="stat-label">Grammys</span>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="stat-box">
+                <span class="stat-number">7</span>
+                <span class="stat-label">Álbuns de Estúdio</span>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="stat-box">
+                <span class="stat-number">100M+</span>
+                <span class="stat-label">Discos Vendidos</span>
+              </div>
+            </div>
+
           </div>
+
         </div>
       </div>
+
     </div>
   </section>
 
-  <div class="ornate-divider"><span class="diamond"></span></div>
+  <div class="ornate-divider">
+    <span class="diamond"></span>
+  </div>
 
   <!-- ÁLBUNS -->
   <section id="albuns" class="section-black py-5">
     <div class="container py-4">
-      <h2 class="section-title text-center mb-5">Selos do Vinil</h2>
+
+      <h2 class="section-title text-center mb-5">
+        Selos do Vinil
+      </h2>
+
       <div class="row g-4">
 
-        <div class="col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="vinyl-seal">
             <div class="vinyl-circle">
               <span class="vinyl-year">2011</span>
             </div>
-            <h5 class="mt-3 text-center">House of Balloons</h5>
-            <p class="text-center text-muted small">Mixtape</p>
+
+            <h5 class="mt-3 text-center">
+              House of Balloons
+            </h5>
+
+            <p class="text-center text-muted small">
+              Mixtape
+            </p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="vinyl-seal">
             <div class="vinyl-circle">
               <span class="vinyl-year">2016</span>
             </div>
-            <h5 class="mt-3 text-center">Starboy</h5>
-            <p class="text-center text-muted small">Álbum</p>
+
+            <h5 class="mt-3 text-center">
+              Starboy
+            </h5>
+
+            <p class="text-center text-muted small">
+              Álbum
+            </p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="vinyl-seal">
             <div class="vinyl-circle">
               <span class="vinyl-year">2020</span>
             </div>
-            <h5 class="mt-3 text-center">After Hours</h5>
-            <p class="text-center text-muted small">Álbum</p>
+
+            <h5 class="mt-3 text-center">
+              After Hours
+            </h5>
+
+            <p class="text-center text-muted small">
+              Álbum
+            </p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="vinyl-seal">
             <div class="vinyl-circle">
               <span class="vinyl-year">2022</span>
             </div>
-            <h5 class="mt-3 text-center">Dawn FM</h5>
-            <p class="text-center text-muted small">Álbum</p>
+
+            <h5 class="mt-3 text-center">
+              Dawn FM
+            </h5>
+
+            <p class="text-center text-muted small">
+              Álbum
+            </p>
           </div>
         </div>
 
@@ -126,41 +234,71 @@
     </div>
   </section>
 
-  <div class="ornate-divider"><span class="diamond"></span></div>
+  <div class="ornate-divider">
+    <span class="diamond"></span>
+  </div>
 
   <!-- TURNÊ -->
   <section id="turne" class="section-dark py-5">
     <div class="container py-4">
-      <h2 class="section-title text-center mb-5">Datas da Turnê</h2>
+
+      <h2 class="section-title text-center mb-5">
+        Datas da Turnê
+      </h2>
+
       <div class="row g-4 justify-content-center">
 
-        <div class="col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="date-card">
-            <div class="date-box"><span class="day">14</span><span class="month">OUT</span></div>
+
+            <div class="date-box">
+              <span class="day">14</span>
+              <span class="month">OUT</span>
+            </div>
+
             <div class="date-info">
               <h6>São Paulo, BR</h6>
-              <p class="mb-0 text-muted">Allianz Parque</p>
+              <p class="mb-0 text-muted">
+                Allianz Parque
+              </p>
             </div>
+
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="date-card">
-            <div class="date-box"><span class="day">02</span><span class="month">NOV</span></div>
+
+            <div class="date-box">
+              <span class="day">02</span>
+              <span class="month">NOV</span>
+            </div>
+
             <div class="date-info">
               <h6>Ciudad de México, MX</h6>
-              <p class="mb-0 text-muted">Foro Sol</p>
+              <p class="mb-0 text-muted">
+                Foro Sol
+              </p>
             </div>
+
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="date-card">
-            <div class="date-box"><span class="day">20</span><span class="month">NOV</span></div>
+
+            <div class="date-box">
+              <span class="day">20</span>
+              <span class="month">NOV</span>
+            </div>
+
             <div class="date-info">
               <h6>Los Angeles, US</h6>
-              <p class="mb-0 text-muted">SoFi Stadium</p>
+              <p class="mb-0 text-muted">
+                SoFi Stadium
+              </p>
             </div>
+
           </div>
         </div>
 
@@ -168,28 +306,78 @@
     </div>
   </section>
 
-  <div class="ornate-divider"><span class="diamond"></span></div>
+  <div class="ornate-divider">
+    <span class="diamond"></span>
+  </div>
 
   <!-- CONTATO -->
   <section id="contato" class="section-black py-5">
     <div class="container py-4">
+
       <div class="row justify-content-center">
-        <div class="col-lg-6 text-center">
-          <h2 class="section-title">Envie um Sinal</h2>
-          <p class="body-serif mb-4">Deixe sua mensagem para o além-vermelho.</p>
+        <div class="col-12 col-lg-6 text-center">
+
+          <h2 class="section-title">
+            Envie um Sinal
+          </h2>
+
+          <p class="body-serif mb-4">
+            Deixe sua mensagem para o além-vermelho.
+          </p>
 
           <form id="contactForm" novalidate>
+
             <div class="mb-3">
-              <input type="text" class="form-control gothic-input" placeholder="Seu nome" required>
+              <label for="nome" class="visually-hidden">
+                Seu nome
+              </label>
+
+              <input
+                id="nome"
+                type="text"
+                class="form-control gothic-input"
+                placeholder="Seu nome"
+                required>
             </div>
+
             <div class="mb-3">
-              <input type="email" class="form-control gothic-input" placeholder="Seu e-mail" required>
+              <label for="email" class="visually-hidden">
+                Seu e-mail
+              </label>
+
+              <input
+                id="email"
+                type="email"
+                class="form-control gothic-input"
+                placeholder="Seu e-mail"
+                required>
             </div>
+
             <div class="mb-3">
-              <textarea class="form-control gothic-input" rows="4" placeholder="Sua mensagem" required></textarea>
+              <label for="mensagem" class="visually-hidden">
+                Sua mensagem
+              </label>
+
+              <textarea
+                id="mensagem"
+                class="form-control gothic-input"
+                rows="4"
+                placeholder="Sua mensagem"
+                required></textarea>
             </div>
-            <button type="submit" class="btn btn-gothic w-100">Enviar</button>
-            <p id="formMsg" class="mt-3 text-success small fw-bold" style="display:none;">✔ Mensagem enviada ao vazio.</p>
+
+            <button
+              type="submit"
+              class="btn btn-gothic w-100">
+              Enviar
+            </button>
+
+            <p
+              id="formMsg"
+              class="mt-3 text-success small fw-bold d-none">
+              ✔ Mensagem enviada ao vazio.
+            </p>
+
           </form>
 
           <div class="social-sigils mt-5 d-flex justify-content-center gap-4">
@@ -198,32 +386,28 @@
             <a href="#" class="sigil" title="Spotify">SP</a>
             <a href="#" class="sigil" title="YouTube">YT</a>
           </div>
+
         </div>
       </div>
+
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="text-center py-4 footer-gothic">
-    <p class="mb-0">&copy; <span id="year"></span> The Weeknd — Tributo Gótico Não Oficial. Todos os direitos ao XO.</p>
+    <p class="mb-0">
+      &copy; <span id="year"></span>
+      The Weeknd — Tributo Gótico Não Oficial.
+      Todos os direitos ao XO.
+    </p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+  <!-- JavaScript do Bootstrap instalado pelo npm -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-    const form = document.getElementById('contactForm');
-    const msg = document.getElementById('formMsg');
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      if (form.checkValidity()) {
-        msg.style.display = 'block';
-        form.reset();
-      } else {
-        form.reportValidity();
-      }
-    });
-  </script>
+  <!-- JavaScript próprio -->
+  <script src="src/js/script.js"></script>
+
 </body>
 </html>
-
+```
