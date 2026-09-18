@@ -23,7 +23,6 @@ ms2-sub-Maria-Eduarda-Bertolli-Da-Silva/
 ├── index.html
 ├── package.json
 ├── package-lock.json
-└── .gitignore
 
 
 ## 🎯 Objetivos
